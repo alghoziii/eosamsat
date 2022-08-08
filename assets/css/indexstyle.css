@@ -363,6 +363,15 @@ h6 {
   animation-delay: -2s;
 }
 
+@-webkit-keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+
 @keyframes move-forever1 {
   0% {
     transform: translate(85px, 0%);
